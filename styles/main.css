@@ -257,10 +257,29 @@ body.dark-mode .hero-subtext {
 
 .floor-data {
     padding: 48px 0;
+    background-color: #ffffff;
+    border-radius: 16px;
+    margin: 32px 0;
 }
 
 .floor-data h2 {
     text-align: center;
+}
+
+.floor-data .container {
+    background-color: #f8f9fa;
+    padding: 32px;
+    border-radius: 8px;
+    border: 1px solid #dee2e6;
+}
+
+body.dark-mode .floor-data {
+    background-color: #2d2d2d;
+}
+
+body.dark-mode .floor-data .container {
+    background-color: #1a1a1a;
+    border-color: #4a4a4a;
 }
 
 .last-updated {
@@ -789,8 +808,7 @@ body.dark-mode .about-content {
     }
     nav ul li a {
         white-space: nowrap;
-        padding: 4px 8px;        
-        font-size: 12px;
+        padding: 8px 12px;
     }
     
     .hero {
@@ -857,14 +875,13 @@ body.dark-mode .about-content {
         display: flex;
         flex: 0 0 auto;       
         flex-wrap: wrap;          
-        gap: 4px;                   
-        font-size: 10px;
+        gap: 8px;
         margin: 0;
         padding: 0;
         list-style: none;
     }
     nav ul li a {
-        padding: 4px 6px;
+        padding: 8px 12px;
         white-space: nowrap;
     }
     
